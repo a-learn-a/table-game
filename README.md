@@ -1,5 +1,7 @@
 # Test Task
 
+![image](https://user-images.githubusercontent.com/84833039/192974414-5830110d-027e-414c-b748-12dfc9178d82.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
