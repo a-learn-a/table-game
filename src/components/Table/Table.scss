@@ -1,0 +1,26 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    &__row {
+        display: flex;
+        border-bottom: 1px solid;
+        border-left: 1px solid;
+    }
+    
+    &__row--first {
+        border-top: 1px solid;
+    }
+    
+    &__cell {
+        padding: 10px;
+        border-right: 1px solid;
+        background-color: transparent;
+        transition: background-color 200ms;
+    }
+    
+    &__cell--hovered {
+        background-color: #02a8f4;
+    }
+}

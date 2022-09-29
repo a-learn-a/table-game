@@ -1,0 +1,32 @@
+.game {
+    &__settings {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0 60px;
+    }
+
+    &__settings-select {
+        width: 250px;
+        height: 28px;
+        outline: none;
+        text-align: center;
+        cursor: pointer;
+        font-family: inherit;
+    }
+
+    &__settings-button {
+        margin-left: 8px;
+        padding: 6px 16px;
+        outline: none;
+        border: unset;
+        background-color: #0075d8;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: background-color 200ms;
+    }
+
+    &__settings-button:hover {
+        background-color: #015faf;
+    }
+}
